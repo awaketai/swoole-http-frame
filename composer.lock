@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d65e2dc4066b98bb0d387a72039a1408",
+    "packages": [
+        {
+            "name": "swo",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../swo",
+                "reference": "1620c09cb5a55815e46d7bc182aab3342668e714"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "swo\\": "./src/"
+                },
+                "files": [
+                    "./src/supper/Help.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Asher",
+                    "email": "awaketai@gmail.com"
+                }
+            ],
+            "description": "swoole http server frame"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "swo": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

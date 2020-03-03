@@ -1,0 +1,31 @@
+{
+    "name": "frame",
+    "description": "swoole http server frame",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Asher",
+            "email": "awaketai@gmail.com"
+        }
+    ],
+    "require": {
+        "swo": "dev-master",
+
+    },
+    "repositories": {
+        "asher": {
+            "type": "path",
+            "url": "../swo"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"./app",
+            "databases\\": "./databases"
+        },
+        "files": [
+            "./vendor/swo/src/supper/Help.php"
+        ]
+    }
+}
